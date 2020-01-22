@@ -22,7 +22,7 @@ EPSILON_DEC =0.997   #noise reduction
 TRAIN_FREQ=10     #how often train agent  
 TRAIN_N=5      #how many times train agent  
 
-
+5. I have added workspace "keep alive" solution I have also added  [provided solution](https://github.com/udacity/workspaces-student-support/tree/master/jupyter) to keep workplace active as [suggested in QA](https://knowledge.udacity.com/questions/61260). It requires workspace_utils.py file provided in this repository.
 
 ## Plot of Rewards
 ![Plot](https://raw.githubusercontent.com/gkowalik/ContinousControl/master/plot.png "Plot")
@@ -33,3 +33,7 @@ More details and results per episode are avaliable in [Main project file](https:
 
 
 ## Ideas for future work
+
+I have read that normalization in neural network was common solution to increase training speed so that would be probably my next step. I have also noticed that even small changes in hyperparameters could increase or decrease number of required episodes a lot, so further hyper parameter tunning could improve the results.
+
+Exploring and comparing different methods mentioned in course and papers REINFORCE, TNPG, RWR, REPS, TRPO, CEM, CMA-E could also bring better results, for that solution i did not tried other methods besides DDPG
