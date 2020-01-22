@@ -22,4 +22,27 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Getting Started
 
-This solution is designed and tested in Workspace evrinoment provided by Udacity. You need to 
+This solution is designed and tested in Workspace evrinoment provided by Udacity. To run it there simply upload all files to Udacity workplace for this project.  
+
+As provided by Course, you can setup your own evrinoment:
+#### STEP1:
+https://github.com/udacity/deep-reinforcement-learning#dependencies
+
+#### STEP2: 
+Download:  
+
+Linux: [DOWNLOAD](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)  
+Mac OSX: [DOWNLOAD](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)  
+Windows (32-bit): [DOWNLOAD](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)  
+Windows (64-bit): [DOWNLOAD](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)  
+
+Then, place the file in the p2_continuous-control/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
+
+#### NOTE: THIS CODE WAS NOT TESTED OUTSIDE UDACITY WORKSPACE. PARTICULARY, THERE IS A SOLUTION TO KEEP UDACITY WORKSPACE ALIVE (workspace_utils.py) THAT MIGHT NEED TO BE REMOVED
+
+### Instructions
+
+After copying all files to workplace simply run Continuous_Control.ipynb file to train the agent. Solution already provide training results that solved the task.  
+
+Trained agents are stored in checkpoint_actor.pth and checkpoint_critic.pth files.
+
