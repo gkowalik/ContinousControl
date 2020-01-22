@@ -27,7 +27,7 @@ TRAIN_N=5      #how many times train agent
 ## Plot of Rewards
 ![Plot](https://raw.githubusercontent.com/gkowalik/ContinousControl/master/plot.png "Plot")
 
-Environment was solved over 203-303 episodes (having average from 203-303 episode above required 30.00)
+Environment ended on 303 episode, as it was solved over 203-303 episode (having average from 203-303 episode above required 30.00)
 
 More details and results per episode are avaliable in [Main project file](https://github.com/gkowalik/ContinousControl/blob/master/Continuous_Control.ipynb)
 
